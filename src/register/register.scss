@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register {
+    padding-top: 150px;
+    color:wheat;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/4057890/pexels-photo-4057890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .register_block {
+        backdrop-filter: blur(20px);
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        padding: 30px;
+        margin: 0 auto;
+        width: 600px;
+        height: 600px;
+        border-radius: 20px;
+
+        .register_bnt {
+            width: 400px;
+            height: 60px;
+            margin-top: 30px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+        }
+        .register_input{
+            color: white;
+            border: none;
+            .register_input::placeholder{
+                color:white !important;
+                opacity: 1;
+            }
+            background-color: transparent;
+            margin: 10px;
+        }
+        .register_nav{
+            display: flex;
+            justify-content: space-between;
+            span{
+                color: rgb(60, 60, 197);
+            }
+        }
+    }
+}

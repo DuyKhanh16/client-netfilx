@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.fotter{
+    p{
+        color: rgba(255, 255, 255, 0.731);
+    }
+    background-color: black;
+    height: 300px;
+    padding: 60px;
+    .fotter_icon{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .fotter_link{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .fotter_text1{
+            width: 200px;
+            
+        }
+    }
+}
